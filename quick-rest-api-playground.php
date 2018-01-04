@@ -68,7 +68,7 @@ class WPA_Quick_REST_API_Playground {
 	 * @access public
 	 */
 	public function admin_enqueue_scripts() {
-		wp_enqueue_script( 'wpa-quick-rest-api-playground-main', plugins_url( '/', __FILE__ ) . 'assets/js/main.js', array( 'jquery' ) );
+		wp_enqueue_script( 'wpa-quick-rest-api-playground-main', plugins_url( '/', __FILE__ ) . 'assets/js/main.js', array( 'jquery', 'wp-api' ) );
 	}
 
 	/**
